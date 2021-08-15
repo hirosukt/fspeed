@@ -8,6 +8,9 @@ public final class Fspeed extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getCommand("fspeed").setExecutor(new CommandFspeed());
+        getCommand("fs").setExecutor(new CommandFspeed());
+        getCommand("wspeed").setExecutor(new CommandWspeed());
+        getCommand("ws").setExecutor(new CommandWspeed());
         getLogger().info("plugin has loaded.");
     }
 

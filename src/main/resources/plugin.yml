@@ -1,5 +1,5 @@
 name: fspeed
-version: 1.1
+version: "$version"
 main: hirosuke.fspeed.Fspeed
 api-version: 1.12
 prefix: fspeed
@@ -13,3 +13,9 @@ commands:
   fs:
     description: Change the player's fly speed.
     usage: "Usage: /fspeed <amount>"
+  wspeed:
+    description: Change the player's walk speed.
+    usage: "Usage: /wspeed <amount>"
+  ws:
+    description: Change the player's walk speed.
+    usage: "Usage: /wspeed <amount>"
