@@ -11,5 +11,4 @@ commands:
     aliases:
       - fs
     description: Change the player's fly speed.
-    permission: fspeed.command.fspeed
     usage: "Usage: /fspeed <amount>"

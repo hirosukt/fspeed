@@ -1,14 +1,14 @@
 package hirosuke.fspeed;
 
-import org.bukkit.command.CommandExecutor;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Fspeed extends JavaPlugin {
+public final class Fspeed extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        getLogger().info("plugin has loaded.");
         getCommand("fspeed").setExecutor(new CommandFspeed());
+        getLogger().info("plugin has loaded.");
     }
 
     @Override
