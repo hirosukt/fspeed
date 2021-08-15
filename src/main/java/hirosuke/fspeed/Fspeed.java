@@ -15,7 +15,7 @@ public final class Fspeed extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onDisable() {
-        getLogger().info("plugin has unloaded.");
+        getLogger().info("plugin has unloadeda.");
     }
 
     @Override
