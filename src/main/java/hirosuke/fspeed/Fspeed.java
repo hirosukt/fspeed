@@ -3,7 +3,7 @@ package hirosuke.fspeed;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Fspeed extends JavaPlugin implements CommandExecutor {
+public final class Fspeed extends JavaPlugin {
 
     @Override
     public void onEnable() {

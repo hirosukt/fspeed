@@ -1,7 +1,7 @@
-name: Fspeed
-version: '${version}'
+name: fspeed
+version: 1.0
 main: hirosuke.fspeed.Fspeed
-api-version: 1.17
+api-version: 1.12
 prefix: fspeed
 authors: [ Hirosuke ]
 description: Change the player's fly speed.
@@ -12,4 +12,4 @@ commands:
       - fs
     description: Change the player's fly speed.
     permission: fspeed.command.fspeed
-    usage: fspeed <amount>
+    usage: "Usage: /fspeed <amount>"
