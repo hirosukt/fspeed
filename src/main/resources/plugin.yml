@@ -2,7 +2,7 @@ name: Fspeed
 version: '${version}'
 main: hirosuke.fspeed.Fspeed
 api-version: 1.17
-prefix: [ fspeed ]
+prefix: fspeed
 authors: [ Hirosuke ]
 description: Change the player's fly speed.
 website: https://hirosuke.art
