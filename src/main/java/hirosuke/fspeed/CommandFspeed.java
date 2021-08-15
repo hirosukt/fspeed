@@ -7,11 +7,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class CommandFspeed implements CommandExecutor {
-    @Override
+
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if(command.getName().equalsIgnoreCase("fspeed")) {
+        if(command.getName().equalsIgnoreCase("fspeed") || command.getName().equalsIgnoreCase("fs")) {
             if(args.length != 0 && sender instanceof Player) {
-                Player player = (Player) sender;
+                Player player = ((Player) sender).getPlayer();
                 try {
                     float amount = Float.parseFloat(args[0]);
                     player.setFlySpeed(amount);
