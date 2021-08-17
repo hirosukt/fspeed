@@ -8,6 +8,6 @@ Change the player's fly speed.
 
 /wspeed[ws] {amount}
 
-## Supported
+## Tested
 
 Spigot 1.12.2
