@@ -3,15 +3,15 @@ The plugin add command to change player's fly/walk speed for minecraft.
 Tested in: 1.8, 1.12
 
 ## Usage 
-/fspeed {amount}  
-/fs {amount}
+/fspeed {amount} {optional: player}  
+/fs {amount} {optional: player}
 
-to change your flyspeed. 
+to change player flyspeed. 
 
-/wspeed {amount}  
-/ws {amount}
+/wspeed {amount} {optional: player}  
+/ws {amount} {optional: player}
 
-to change your walkspeed.
+to change player walkspeed.
 
 amount is must be over than 0.0, and under than 1.0.
 
