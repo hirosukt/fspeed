@@ -2,6 +2,8 @@
 The plugin add command to change player's fly/walk speed for minecraft.  
 Tested in: 1.8, 1.12
 
+Page : https://www.spigotmc.org/resources/fspeed.95785/
+
 ## Usage 
 /fspeed {amount} {optional: player}  
 /fs {amount} {optional: player}
