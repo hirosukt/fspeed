@@ -1,9 +1,8 @@
 name: fspeed
 version: "$version"
 main: hirosuke.fspeed.Fspeed
-api-version: 1.12
 prefix: fspeed
-authors: [ Hirosuke ]
+author: Hirosuke
 description: Change the player's fly speed.
 website: https://hirosuke.art
 commands:
