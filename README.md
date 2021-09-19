@@ -1,5 +1,5 @@
 # fspeed
-The plugin adds command to change your fly/walk speed to your server.  
+Change player's fly speed.  
 If you have a problem, you can get support in [my discord server](https://discord.gg/A8XtpJhHrV).
 
 Worked in: 1.8 1.9 1.10 1.11 1.12 1.13 1.14 1.15 1.16
